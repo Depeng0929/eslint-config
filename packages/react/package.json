@@ -1,6 +1,6 @@
 {
   "name": "@depeng0929/eslint-config-react",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [
@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@depeng0929/eslint-config-basic": "^0.3.0",
+    "@depeng0929/eslint-config-basic": "^0.3.1",
     "eslint-plugin-react": "^7.22.0"
   },
   "devDependencies": {
