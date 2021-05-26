@@ -1,6 +1,6 @@
 {
   "name": "@depeng0929/eslint-config-basic",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [
