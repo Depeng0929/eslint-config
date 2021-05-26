@@ -10,17 +10,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "typescript": ">=3.9"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng0929/eslint-config-basic": "^0.3.3",
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
+    "@antfu/eslint-config-ts": "^0.6.5",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
-  },
-  "gitHead": "85540178f94effc2861a9953a5116e78dd2d29e5"
+  }
 }
