@@ -1,0 +1,22 @@
+{
+  "name": "@depeng0929/eslint-config-vue",
+  "version": "0.0.0",
+  "author": "depeng.kong <15365182986@163.com>",
+  "main": "index.js ",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@depeng0929/eslint-config-basic": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint-plugin-vue": "7.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

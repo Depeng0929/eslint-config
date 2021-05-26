@@ -1,0 +1,21 @@
+{
+  "name": "@depeng0929/eslint-config-react",
+  "version": "0.0.0",
+  "author": "depeng.kong <15365182986@163.com>",
+  "main": "index.js ",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@depeng0929/eslint-config-basic": "^0.1.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "react": "^17.0.1",
+    "typescript": "^4.2.3"
+  }
+}

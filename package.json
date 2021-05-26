@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config",
+  "version": "0.1.0",
+  "repository": "git@github.com:Depeng0929/eslint-config.git",
+  "author": "depeng.kong <15365182986@163.com>",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "eslint": "^7.27.0",
+    "typescript": "^4.2.4"
+  }
+}
