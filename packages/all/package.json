@@ -1,16 +1,19 @@
 {
   "name": "@depeng0929/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng0929/eslint-config-react": "^0.0.0",
-    "@depeng0929/eslint-config-vue": "^0.0.0"
+    "@depeng0929/eslint-config-react": "^0.1.0",
+    "@depeng0929/eslint-config-vue": "^0.1.0"
   }
 }
