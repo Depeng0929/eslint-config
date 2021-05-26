@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-ts": "^0.6.5",
+    "@depeng0929/eslint-config-ts": "^0.6.5",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
