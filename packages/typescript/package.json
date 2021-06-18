@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "depeng.kong <15365182986@163.com>",
   "license": "ISC",
   "main": "index.js",
