@@ -9,6 +9,7 @@
   },
   "author": "Depeng0929 <15365182986@163.com> https://github.com/Depeng0929",
   "devDependencies": {
+    "@depeng9527/eslint-config": "*",
     "lerna": "^4.0.0"
   },
   "dependencies": {

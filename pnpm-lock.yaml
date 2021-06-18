@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@depeng9527/eslint-config': ^0.1.1
       eslint: ^7.28.0
       lerna: ^4.0.0
       typescript: ^4.3.4
@@ -11,6 +12,7 @@ importers:
       eslint: 7.28.0
       typescript: 4.3.4
     devDependencies:
+      '@depeng9527/eslint-config': link:packages/all
       lerna: 4.0.0
 
   packages/all:
