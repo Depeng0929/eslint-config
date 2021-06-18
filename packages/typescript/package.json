@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config-ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "depeng.kong <15365182986@163.com>",
   "license": "ISC",
   "main": "index.js",
@@ -15,10 +15,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@depeng9527/eslint-config-basic": "^0.0.0",
+    "@depeng9527/eslint-config-basic": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0"
-
   },
   "devDependencies": {
     "eslint": "^7.28.0"
