@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "depeng.kong <15365182986@163.com>",
   "license": "ISC",
   "main": "index.js",
@@ -17,8 +17,8 @@
     "eslint": "^7.28.0"
   },
   "dependencies": {
-    "@depeng9527/eslint-config-react": "^0.1.1",
-    "@depeng9527/eslint-config-vue": "^0.1.1"
+    "@depeng9527/eslint-config-react": "^1.0.0",
+    "@depeng9527/eslint-config-vue": "^1.0.0"
   },
   "gitHead": "bd9b79ce9cf0fd6800163700659fd3ad393a8f4f"
 }
