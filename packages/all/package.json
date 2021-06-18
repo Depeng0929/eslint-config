@@ -19,5 +19,6 @@
   "dependencies": {
     "@depeng9527/eslint-config-react": "^0.1.0",
     "@depeng9527/eslint-config-vue": "^0.1.0"
-  }
+  },
+  "gitHead": "bd9b79ce9cf0fd6800163700659fd3ad393a8f4f"
 }
