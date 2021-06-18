@@ -1,0 +1,23 @@
+{
+  "name": "@depeng9527/eslint-config",
+  "version": "0.0.0",
+  "author": "depeng.kong <15365182986@163.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  },
+  "dependencies": {
+    "@depeng9527/eslint-config-react": "^0.0.0",
+    "@depeng9527/eslint-config-vue": "^0.0.0"
+  }
+}

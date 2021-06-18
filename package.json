@@ -1,0 +1,18 @@
+{
+  "name": "@depeng9527/eslint-config-monorepo",
+  "version": "1.0.0",
+  "description": "Personal eslint config",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "author": "Depeng0929 <15365182986@163.com> https://github.com/Depeng0929",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "eslint": "^7.28.0",
+    "typescript": "^4.3.4"
+  }
+}
