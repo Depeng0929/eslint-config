@@ -2,7 +2,6 @@
   "name": "@depeng9527/eslint-config-monorepo",
   "version": "1.0.0",
   "description": "Personal eslint config",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
