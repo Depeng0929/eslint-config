@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
-    '@depeng0929/eslint-config-basic',
+    '@depeng9527/eslint-config-basic',
   ],
   settings: {
     react: {
