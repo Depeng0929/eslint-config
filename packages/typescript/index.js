@@ -2,18 +2,21 @@ const basic = require('@depeng9527/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@depeng9527/eslint-config-basic',
+    '@antfu/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
   rules: {
+    'import/named': 'off',
+
     // TS
     'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
-    '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
 
+    'indent': 'off',
+    '@typescript-eslint/indent': ['error', 2],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-redeclare': 'off',
@@ -32,5 +35,5 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/ban-types': 'off',
-  }
+  },
 }

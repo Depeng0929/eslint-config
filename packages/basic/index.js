@@ -1,18 +1,20 @@
 module.exports = {
-  env: { 
+  env: {
     es6: true,
     browser: true,
     node: true,
   },
   extends: [
     'standard',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
   ],
-  plugins: ['html', 'unicorn'],
+  plugins: [
+    'html',
+    'unicorn',
+  ],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
@@ -27,6 +29,10 @@ module.exports = {
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
       },
+    },
+    {
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser',
     },
     {
       files: ['package.json'],
@@ -69,6 +75,24 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['scripts/**/*.*'],
+      rules: {
+        'no-console': 'off',
+      },
+    },
   ],
   rules: {
     // import
@@ -94,7 +118,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'no-constant-condition': 'warn',
     'no-debugger': 'error',
-    'no-console': 'error',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
@@ -146,7 +170,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'consistent-return': 'off',
     'complexity': ['off', 11],
-    'eqeqeq': ['error', 'allow-null'],
+    'eqeqeq': ['error', 'smart'],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
     'no-multi-spaces': 'error',
