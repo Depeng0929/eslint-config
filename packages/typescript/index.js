@@ -2,7 +2,7 @@ const basic = require('@depeng9527/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@antfu/eslint-config-basic',
+    '@depeng9527/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
