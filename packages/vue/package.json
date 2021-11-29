@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config-vue",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [
@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng9527/eslint-config-ts": "^1.2.0",
+    "@depeng9527/eslint-config-ts": "^1.2.2",
     "eslint-plugin-vue": "^8.1.1"
   },
   "devDependencies": {
