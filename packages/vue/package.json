@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng0929/eslint-config-ts": "workspace:^1.2.0",
+    "@depeng0929/eslint-config-ts": "^1.2.0",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
