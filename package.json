@@ -1,6 +1,7 @@
 {
   "name": "eslint-config",
   "version": "1.2.0",
+  "license": "MIT",
   "repository": "git@github.com:depeng9527/eslint-config.git",
   "author": "depeng.kong <15365182986@163.com>",
   "scripts": {
@@ -8,9 +9,8 @@
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
     "release": "lerna publish --conventional-commits"
   },
-  "license": "MIT",
   "devDependencies": {
-    "@depeng9527/eslint-config": "^1.3.4",
+    "@depeng9527/eslint-config": "^1.3.5",
     "eslint": "^8.3.0",
     "lerna": "^4.0.0",
     "typescript": "^4.5.2"

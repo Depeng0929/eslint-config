@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@depeng9527/eslint-config': ^1.3.4
+      '@depeng9527/eslint-config': ^1.3.5
       eslint: ^8.3.0
       lerna: ^4.0.0
       typescript: ^4.5.2
     devDependencies:
-      '@depeng9527/eslint-config': 1.3.4_eslint@8.3.0+typescript@4.5.2
+      '@depeng9527/eslint-config': 1.3.5_eslint@8.3.0+typescript@4.5.2
       eslint: registry.npmmirror.com/eslint/8.3.0
       lerna: registry.nlark.com/lerna/4.0.0
       typescript: 4.5.2
@@ -267,12 +267,12 @@ packages:
       - supports-color
     dev: true
 
-  /@depeng9527/eslint-config-react/1.3.4_eslint@8.3.0+typescript@4.5.2:
-    resolution: {integrity: sha512-dVteN3mRBKBgP+n6DHzbCRLmvsl1XPoXeGN2hBf3z0/aCqSHCOydbZAdwptZjRvzbmgTq+geQJm4h8eIBLtcug==}
+  /@depeng9527/eslint-config-react/1.3.5_eslint@8.3.0+typescript@4.5.2:
+    resolution: {integrity: sha512-WDvd20Jiz+j/jmSjck2ZyqsHpq2GNMginkuW5rbQSLOv54PzrMNPoL+sBOekZEveGcPZTHmunSIAQWUF2CgRMw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@depeng9527/eslint-config-ts': 1.3.4_eslint@8.3.0+typescript@4.5.2
+      '@depeng9527/eslint-config-ts': 1.3.5_eslint@8.3.0+typescript@4.5.2
       eslint: registry.npmmirror.com/eslint/8.3.0
       eslint-plugin-react: 7.27.1_eslint@8.3.0
     transitivePeerDependencies:
@@ -280,8 +280,8 @@ packages:
       - typescript
     dev: true
 
-  /@depeng9527/eslint-config-ts/1.3.4_eslint@8.3.0+typescript@4.5.2:
-    resolution: {integrity: sha512-HuQ/Ei2sy6A0bTnrozADds+jVZ9Zh4+DQGseeYHvCHnlC7KyypHuaKCsV3QAQvQL4TYbDBswR+3e/n46C+lBKQ==}
+  /@depeng9527/eslint-config-ts/1.3.5_eslint@8.3.0+typescript@4.5.2:
+    resolution: {integrity: sha512-xTBQm7jR99EbBqjaMnPQbg8r8Jpg3QSWIbK38qt2IHyCJM1Z+D8nYMJBs08B7ZA9KxWmHYcadvTYFoU53sJ3fQ==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
@@ -295,12 +295,12 @@ packages:
       - supports-color
     dev: true
 
-  /@depeng9527/eslint-config-vue/1.3.4_eslint@8.3.0+typescript@4.5.2:
-    resolution: {integrity: sha512-0KWphHZf7NJ6Maa6bXF4op8GAuAKR2AG3Ex7FUI0B6+Kb2UDY9MvW9n18eeKNIJ1UNBwnioAmj6FlKnNhLi7oA==}
+  /@depeng9527/eslint-config-vue/1.3.5_eslint@8.3.0+typescript@4.5.2:
+    resolution: {integrity: sha512-nE9Zhu7szWA6fGDWfe1G/edxqCIlkMcA/iYNkf5T2+YQ9IsJJ+GqIQsjDJyUkgwh3PW4gMDUUGstp28tSRHqJw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@depeng9527/eslint-config-ts': 1.3.4_eslint@8.3.0+typescript@4.5.2
+      '@depeng9527/eslint-config-ts': 1.3.5_eslint@8.3.0+typescript@4.5.2
       eslint: registry.npmmirror.com/eslint/8.3.0
       eslint-plugin-vue: 8.1.1_eslint@8.3.0
     transitivePeerDependencies:
@@ -308,13 +308,13 @@ packages:
       - typescript
     dev: true
 
-  /@depeng9527/eslint-config/1.3.4_eslint@8.3.0+typescript@4.5.2:
-    resolution: {integrity: sha512-bTfd3Vbb7RdS+k4xVEuKrbrQVgi785w8X9NgaAyHaHxp4e1b6MhmPfueYaBBdPwh73BOrgyR2LFyz1R5prP1kQ==}
+  /@depeng9527/eslint-config/1.3.5_eslint@8.3.0+typescript@4.5.2:
+    resolution: {integrity: sha512-+yETyaeO8eLlBUCv4SLC0hSbWYJGa9C0Tm2zuDCUY12kpzm7QrGWORLIcOAYyy0/GJedgML0KMtgmLqp+G0PzQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@depeng9527/eslint-config-react': 1.3.4_eslint@8.3.0+typescript@4.5.2
-      '@depeng9527/eslint-config-vue': 1.3.4_eslint@8.3.0+typescript@4.5.2
+      '@depeng9527/eslint-config-react': 1.3.5_eslint@8.3.0+typescript@4.5.2
+      '@depeng9527/eslint-config-vue': 1.3.5_eslint@8.3.0+typescript@4.5.2
       '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
       '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
       eslint: registry.npmmirror.com/eslint/8.3.0
