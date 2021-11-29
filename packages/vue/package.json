@@ -13,11 +13,11 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng0929/eslint-config-ts": "^0.6.5",
+    "@depeng0929/eslint-config-ts": "workspace:^1.2.0",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
     "eslint": "^7.22.0"
   },
-  "gitHead": "657df2891a1c6814a031349bd8293141bf57cc83"
+  "gitHead": "82fd2ff3c5f8176dda8baf6ad301190941904240"
 }
