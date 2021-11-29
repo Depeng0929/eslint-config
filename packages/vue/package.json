@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config-vue",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [

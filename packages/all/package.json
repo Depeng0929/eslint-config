@@ -1,6 +1,6 @@
 {
   "name": "@depeng9527/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "depeng.kong <15365182986@163.com>",
   "main": "index.js ",
   "files": [
@@ -13,8 +13,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@depeng9527/eslint-config-react": "^1.2.0",
-    "@depeng9527/eslint-config-vue": "^1.2.0"
+    "@depeng9527/eslint-config-react": "^1.2.1",
+    "@depeng9527/eslint-config-vue": "^1.2.1"
   },
   "gitHead": "82fd2ff3c5f8176dda8baf6ad301190941904240"
 }
