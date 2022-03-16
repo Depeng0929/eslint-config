@@ -10,6 +10,24 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
+    'plugin:markdown/recommended',
+  ],
+  ignorePatterns: [
+    '*.min.*',
+    'CHANGELOG.md',
+    'dist',
+    'LICENSE*',
+    'output',
+    'coverage',
+    'public',
+    'temp',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '__snapshots__',
+    '!.github',
+    '!.vitepress',
+    '!.vscode',
   ],
   plugins: [
     'html',
@@ -33,6 +51,9 @@ module.exports = {
     {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
+      rules: {
+        'spaced-comment': 'off',
+      },
     },
     {
       files: ['package.json'],
@@ -44,27 +65,33 @@ module.exports = {
             pathPattern: '^$',
             order: [
               'name',
+              'type',
               'version',
+              'private',
+              'packageManager',
               'description',
               'keywords',
               'license',
+              'author',
               'repository',
               'funding',
-              'author',
-              'type',
-              'files',
-              'exports',
               'main',
               'module',
+              'types',
               'unpkg',
+              'jsdelivr',
+              'exports',
+              'files',
               'bin',
+              'sideEffects',
               'scripts',
-              'husky',
-              'lint-staged',
               'peerDependencies',
               'peerDependenciesMeta',
               'dependencies',
+              'optionalDependencies',
               'devDependencies',
+              'husky',
+              'lint-staged',
               'eslintConfig',
             ],
           },
@@ -88,9 +115,32 @@ module.exports = {
       },
     },
     {
-      files: ['scripts/**/*.*'],
+      files: ['scripts/**/*.*', 'cli.*'],
       rules: {
         'no-console': 'off',
+      },
+    },
+    {
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
+    {
+      // Code blocks in markdown file
+      files: ['**/*.md/*.*'],
+      rules: {
+        '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        'import/no-unresolved': 'off',
+        'no-alert': 'off',
+        'no-console': 'off',
+        'no-restricted-imports': 'off',
+        'no-undef': 'off',
+        'no-unused-expressions': 'off',
+        'no-unused-vars': 'off',
       },
     },
   ],
@@ -126,7 +176,6 @@ module.exports = {
     'no-restricted-syntax': [
       'error',
       'DebuggerStatement',
-      'ForInStatement',
       'LabeledStatement',
       'WithStatement',
     ],
@@ -164,6 +213,17 @@ module.exports = {
     'template-curly-spacing': 'error',
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'generator-star-spacing': 'off',
+    'spaced-comment': ['error', 'always', {
+      line: {
+        markers: ['/'],
+        exceptions: ['/', '#'],
+      },
+      block: {
+        markers: ['!'],
+        exceptions: ['*'],
+        balanced: true,
+      },
+    }],
 
     // best-practice
     'array-callback-return': 'error',
@@ -211,5 +271,22 @@ module.exports = {
 
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'eslint-comments/disable-enable-pair': 'off',
+    'import/no-named-as-default-member': 'off',
+    'n/no-callback-literal': 'off',
+
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+        allowSeparatedGroups: false,
+      },
+    ],
+
+    // yml
+    'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
+    'yml/no-empty-document': 'off',
   },
 }

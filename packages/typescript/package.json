@@ -2,24 +2,23 @@
   "name": "@depeng9527/eslint-config-ts",
   "version": "1.4.0",
   "author": "Depeng0929 <kongdepeng520@gmail.com>",
+  "main": "index.js ",
   "files": [
     "index.js"
   ],
-  "main": "index.js ",
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",
     "typescript": ">=3.9"
   },
-  "dependencies": {
-    "@depeng9527/eslint-config-basic": "^1.4.0",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.3.0"
+  "publishConfig": {
+    "access": "public"
   },
   "gitHead": "750f47137e9540adac1560190cfb257af20f3e66"
 }
