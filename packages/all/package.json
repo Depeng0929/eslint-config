@@ -2,7 +2,7 @@
   "name": "@depeng9527/eslint-config",
   "version": "1.4.1",
   "author": "Depeng0929 <kongdepeng520@gmail.com>",
-  "main": "index.js ",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
