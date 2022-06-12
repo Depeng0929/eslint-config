@@ -1,6 +1,7 @@
 {
   "name": "eslint-config",
   "version": "1.2.0",
+  "private": true,
   "repository": "git@github.com:depeng9527/eslint-config.git",
   "license": "MIT",
   "author": "depeng.kong <15365182986@163.com>",
